@@ -1,0 +1,13 @@
+This is bot for autoposting images from google drive
+
+To start using bot, on your pc you need to:
+0. Make authentification part from https://pythonhosted.org/PyDrive/quickstart.html and place client_secrets.json in project folder
+1. install google drive lib via "pip3 install pydrive"
+2. run auth script "python3 auth.py" and authenticate
+3. set channel names, folder names and period time in seconds in settings.py
+4. set bot token in settings.py
+5. transfer creds.txt file with other files to server
+then on server install libs
+6. pip3 install -r requirements.txt
+run bot via
+7. python3 app.py
